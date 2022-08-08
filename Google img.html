@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="header">               
+                    <a id="header_btn" href="index.html">Google Пошук</a>           
+            </div>
+        </header>
+        <main class="center_part">
+            <div class="image_front">   
+                <img alt="Google" src="./images/GoogleIMG.png" width="280">
+            </div>
+            
+            <form action="https://google.com/search" method="get" role="search">
+                <div class="main_search">
+                    <div class="child_search">
+                        <img id="icon_lupa" src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="lupa">
+                        <input id="text" type="text" name="q" placeholder="Search">
+                    </div>                   
+                </div>
+                <div class="buttons">
+                    <input id="search" type="submit" value="Пошук зображення">
+                    <input id="search" type="hidden" name="tbm" value="isch">
+                </div>           
+            </form>  
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
